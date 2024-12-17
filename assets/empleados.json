@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "nombre": "Carlos Fernández",
+      "fecha_nacimiento": "1985-03-12",
+      "edad": 39,
+      "genero": "Masculino",
+      "cargo": "Desarrollador de Software",
+      "photo": "https://thispersondoesnotexist.com/"
+    },
+    {
+      "id": 2,
+      "nombre": "María García",
+      "fecha_nacimiento": "1990-07-22",
+      "edad": 34,
+      "genero": "Femenino",
+      "cargo": "Gerente de Proyectos",
+      "photo": "https://thispersondoesnotexist.com/"
+    },
+    {
+      "id": 3,
+      "nombre": "Luis Martínez",
+      "fecha_nacimiento": "1978-11-05",
+      "edad": 45,
+      "genero": "Masculino",
+      "cargo": "Director de Tecnología",
+      "photo": "https://thispersondoesnotexist.com/"
+    },
+    {
+      "id": 4,
+      "nombre": "Ana López",
+      "fecha_nacimiento": "1995-02-14",
+      "edad": 29,
+      "genero": "Femenino",
+      "cargo": "Diseñadora UX/UI",
+      "photo": "https://thispersondoesnotexist.com/"
+    },
+    {
+      "id": 5,
+      "nombre": "Jorge Ramírez",
+      "fecha_nacimiento": "1988-08-30",
+      "edad": 36,
+      "genero": "Masculino",
+      "cargo": "Administrador de Sistemas",
+      "photo": "https://thispersondoesnotexist.com/"
+    }
+  ]
+  
