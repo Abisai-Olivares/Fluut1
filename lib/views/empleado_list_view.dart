@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:test_json/viewModels/empleado_viewmodel.dart';
+import 'empleado_details_view.dart';
 
 class EmpleadoListView extends StatelessWidget {
   @override
@@ -29,23 +30,14 @@ class EmpleadoListView extends StatelessWidget {
                     final empleado = viewModel.empleados[index];
                     return Card(
                       child: ListTile(
-                        leading: CircleAvatar(
-                          backgroundImage: NetworkImage(empleado.photo),
-                        ),
-                        title: Text(
-                          'Empleado ID: ${empleado.id}',
-                        ),
-                        subtitle: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text('Fecha de nacimiento: ${empleado.fecha_nacimiento}'),
-                            Text('Edad: ${empleado.edad}'),
-                            Text('Género: ${empleado.genero}'),
-                            Text('Cargo: ${empleado.cargo}'),
-                          ],
-                        ),
+                        title: Text('Empleado ID: ${empleado.id}'),
                         onTap: () {
-                          // Acción al tocar el empleado
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => EmpleadoDetailView(empleado: empleado),
+                            ),
+                          );
                         },
                       ),
                     );
